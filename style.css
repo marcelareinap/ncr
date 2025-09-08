@@ -58,6 +58,16 @@ footer {
   margin-top: 2rem;                      /* Separación con el contenido principal */
 }
 
+#resultados {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.resultado {
+  border: 1px solid red;               /* Borde gris claro */
+}
+
 /* ✅ Diseño responsive para móviles */
 @media (max-width: 768px) {
   main {
