@@ -618,5 +618,95 @@ const datos = [
     menor: '0',
     codigoEntorno: 'N/A',
     description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'Bajar Log de errores por solicitud del cliente o de NCR y el SSCO no tiene fallas',
+    tipoSR: 'ECO',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '50',
+    menor: 'X2',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Retiro atasco en impresora',
+    tipoSR: 'FLM',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'S5',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Retiro atasco en lectora',
+    tipoSR: 'FLM',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'CR',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Cliente solicita Ingreso Llaves de Encripcion PROYECTO BANCOLOMBIA',
+    tipoSR: 'FLM4',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Encender ATM despues de Remodelacion',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Instalacion Protector teclado',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Reinstalar ATM que estaba en Bodega',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Instalacion de Gavetas',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Instalacion de Partes nuevas por actualizacion o venta',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
   }
 ];
