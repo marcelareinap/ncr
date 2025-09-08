@@ -138,5 +138,95 @@ const datos = [
     menor: 'TJ',
     codigoEntorno: '19KO',
     description: ''
+  },
+  {
+    causalidad: 'Incumplimiento y/o TDV no llevo llaves del site',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'Mal diagnostico de Monitoreo (BELLTECH - DAVIVIENDA), modulo diferente - servivio incorrecto SLM',
+    tipoSR: 'CHGC',
+    codigoReparacion: '54',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19NR',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Problema Aire Acondicionado en afectacion al ATM con cambio de partes ATM',
+    tipoSR: 'CHGC',
+    codigoReparacion: '11',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19KT',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Problema Software Cliente',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Reinstalacion Software SIN Falla del ATM',
+    tipoSR: 'CHGC',
+    codigoReparacion: '30',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - No acceso al ATM para NCR SLM',
+    tipoSR: 'CHGC',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - NO se pudo abrir cofre TDV y/o Oficina',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'Vandalismo Mayor',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19NP',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Vandalismo Mayor Con cambio de partes',
+    tipoSR: 'CHGC',
+    codigoReparacion: '11',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19NP',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   }
 ];
