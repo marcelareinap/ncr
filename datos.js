@@ -508,5 +508,115 @@ const datos = [
     menor: 'XX',
     codigoEntorno: '19NP',
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura  y no llega proveedor  o no tiene acceso',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'LH',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Aire Acondicionado',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Alarmas',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'V1',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Aseo',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Cerradura',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'VD',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Comunicaciones',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D4',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura DVR',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'V3',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Electrico',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D9',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento - Apertura Otros',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19K8',
+    description: ''
+  },
+  {
+    causalidad: 'Acompañamiento Configuracion PIN VISA (Llaves Encripcion)',
+    tipoSR: 'CHGF / TTPY',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'ED',
+    menor: 'SI',
+    codigoEntorno: '19KA',
+    description: ''
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Desmonte dispensador x Remodelacion',
+    tipoSR: 'DEIN',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
   }
 ];
