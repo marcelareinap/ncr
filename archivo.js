@@ -7,14 +7,14 @@ function buscarDatos() {
   resultsDiv.innerHTML = resultados.length
     ? resultados.map(d => `
       <div class="resultado">
-        <p><strong>Causalidad: ${d.causalidad}</strong></p>
-        <p>Tipo SR: ${d.tipoSR}</p>
-        <p>Código de Reparación: ${d.codigoReparacion}</p>
-        <p>Categoría: ${d.categoria}</p>
-        <p>Mayor: ${d.mayor}</p>
-        <p>Menor: ${d.menor}</p>
-        <p>Código Entorno: ${d.codigoEntorno}</p>
-        <p>Descripción: ${d.descripcion}</p>
+        <p><strong>Causalidad:</strong> ${d.causalidad}</p>
+        <p><strong>Tipo SR:</strong> ${d.tipoSR}</p>
+        <p><strong>Código de Reparación:</strong> ${d.codigoReparacion}</p>
+        <p><strong>Categoría:</strong> ${d.categoria}</p>
+        <p><strong>Mayor:</strong> ${d.mayor}</p>
+        <p><strong>Menor:</strong> ${d.menor}</p>
+        <p><strong>Código Entorno:</strong> ${d.codigoEntorno}</p>
+        <p><strong>Descripción:</strong> ${d.descripcion ?? 'N/A'}</p>
       </div>
       `).join('')
     : '<p>No se encontraron resultados.</p>';
