@@ -388,5 +388,125 @@ const datos = [
     menor: 'X1',
     codigoEntorno: '19N8',
     description: ''
+  },
+  {
+    causalidad: 'Mal diagnostico de Monitoreo,(BELLTECH), modulo diferente - servivio incorrecto FLM',
+    tipoSR: 'CHGF',
+    codigoReparacion: '54',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19NR',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Problema Aire Acondicionado en afectacion al ATM',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'ZQ',
+    codigoEntorno: '19KT',
+    description: ''
+  },
+  {
+    causalidad: 'Problema comunicaciones o equipos comunicaciones  apagados o reset equipos',
+    tipoSR: 'CHGF',
+    codigoReparacion: '57',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D4',
+    codigoEntorno: '19KQ',
+    description: ''
+  },
+  {
+    causalidad: 'Problema electrico - Equipos comunicaciones',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'LA',
+    codigoEntorno: '19KQ',
+    description: ''
+  },
+  {
+    causalidad: 'Problema electrico - No hay Fluido electrico',
+    tipoSR: 'CHGF',
+    codigoReparacion: '47',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'LA',
+    codigoEntorno: '19K4',
+    description: ''
+  },
+  {
+    causalidad: 'Problema electrico - Voltajes altos',
+    tipoSR: 'CHGF',
+    codigoReparacion: '47',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'LA',
+    codigoEntorno: '19K4',
+    description: ''
+  },
+  {
+    causalidad: 'Problema electrico -Problema UPS',
+    tipoSR: 'CHGF',
+    codigoReparacion: '47',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D9',
+    codigoEntorno: '19K4',
+    description: ''
+  },
+  {
+    causalidad: 'Realizar Test Cash',
+    tipoSR: 'CHGF',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'QC',
+    codigoEntorno: '19K7',
+    description: ''
+  },
+  {
+    causalidad: 'Reseteo ATM con Aplicativo Cliente',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - No acceso al ATM para NCR FLM',
+    tipoSR: 'CHGF',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - No hay clave de alarma Site',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'Vandalismo Menor',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'XX',
+    menor: 'XX',
+    codigoEntorno: '19NP',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   }
 ];
