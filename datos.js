@@ -1020,13 +1020,93 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Reinstalar SSCO que estaba en Bodega',
-    tipoSR: 'INST',
-    codigoReparacion: '0',
+    causalidad: 'Reparacion o Cambio de Balanza de seguridad responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
     categoria: '1R',
-    mayor: '0',
-    menor: '0',
+    mayor: '8H',
+    menor: 'XX',
     codigoEntorno: 'N/A',
-    description: 'SR de proyectos'
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Cable USB responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '23',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Cash Box responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '7Y',
+    menor: 'Q3',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Cassette Reciclador responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '7Y',
+    menor: 'Q5',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Disco Duro responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '14',
+    menor: 'YP',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Main Module responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '7Y',
+    menor: 'FB',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Reciclador de monedas responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '8P',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Scanner-balanza responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '82',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Spine responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: 'd',
+    menor: 'TJ',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   }
 ];
