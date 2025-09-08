@@ -708,5 +708,175 @@ const datos = [
     menor: '0',
     codigoEntorno: 'N/A',
     description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Antiskimming responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'CR',
+    menor: '3P',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio BNA responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: '2C',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio cerradura Fascia responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'FO',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Dispensador Modulos responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Dispensador Presentador responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio FDK/Op responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'DT',
+    menor: 'E3',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Gabinete responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Harness responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'J7',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Impresora responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Lectora responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'CR',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Monitor responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'DT',
+    menor: 'XX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio PCCORE responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'YH',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Shutter responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: '2C',
+    menor: 'BM',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Teclado EPP responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'ED',
+    menor: 'EX',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Retiro Billete atascado Modulos por falla de maquina',
+    tipoSR: 'MNT',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'QC',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'Retiro Billete atascado Presentador por falla de maquina',
+    tipoSR: 'MNT',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'FD',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'Camaras DAV',
+    tipoSR: 'MNT',
+    codigoReparacion: 'XX',
+    categoria: '1B',
+    mayor: 'ED',
+    menor: 'V3',
+    codigoEntorno: 'N/A',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   }
 ];
