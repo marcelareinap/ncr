@@ -878,5 +878,155 @@ const datos = [
     menor: 'V3',
     codigoEntorno: 'N/A',
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Mantenimiento Preventivo',
+    tipoSR: 'PM',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'Mantenimiento Preventivo Fallido no entulado -visita fallida',
+    tipoSR: 'PM',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'Mantenimiento Preventivo Fallido restriccion de ingreso',
+    tipoSR: 'PM',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'Mantenimiento Preventivo Unidad Critica',
+    tipoSR: 'PMCU',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: ''
+  },
+  {
+    causalidad: 'PROYECTO Alistamiento de equipos en bodega para reinstalcion',
+    tipoSR: 'RFIT',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita instalacion de nuevo aplicativo',
+    tipoSR: 'RFIT',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Setear gavetas, Cambio denominacion o Configuracion nueva familia',
+    tipoSR: 'RFIT',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Visita para revisar equipo y poner a punto el Site para Instalacion',
+    tipoSR: 'SPV',
+    codigoReparacion: '0',
+    categoria: '1B',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'Error Operativo - Inactividad SSCO',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KR',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - No hay SSCO en sitio',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '34',
+    menor: 'YH',
+    codigoEntorno: '19NR',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - SSCO Apagado por reparacion Boveda o Site',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'YH',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - SSCO en Supervisor',
+    tipoSR: 'CHGC',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'LH',
+    codigoEntorno: '19KH',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - No acceso al SSCO',
+    tipoSR: 'CHGC',
+    codigoReparacion: '59',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'V8',
+    codigoEntorno: '19KL',
+    description: ''
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Apagar SSCO por desconexion',
+    tipoSR: 'DEIN',
+    codigoReparacion: '0',
+    categoria: '1R',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente solicita Reinstalar SSCO que estaba en Bodega',
+    tipoSR: 'INST',
+    codigoReparacion: '0',
+    categoria: '1R',
+    mayor: '0',
+    menor: '0',
+    codigoEntorno: 'N/A',
+    description: 'SR de proyectos'
   }
 ];
