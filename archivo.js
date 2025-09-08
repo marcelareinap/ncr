@@ -18,11 +18,16 @@ function buscarDatos() {
       </div>
       `).join('')
     : '<p>No se encontraron resultados.</p>';
+
+  return resultados.length > 0;
 }
 
 
 document.getElementById('busqueda').addEventListener('submit', function (e) {
   e.preventDefault();
-  buscarDatos()
+  const tieneResultado = buscarDatos();
+  // Ocultar mensaje de sugerencia
+  const sugerencia = document.querySelector('.sugerencia');
+  sugerencia.style.display = tieneResultado ? 'none' : 'block';
 });
 
