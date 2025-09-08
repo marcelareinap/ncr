@@ -228,5 +228,165 @@ const datos = [
     menor: 'XX',
     codigoEntorno: '19NP',
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Aprovisionamiento de Papel exitoso',
+    tipoSR: 'CHGF',
+    codigoReparacion: '05',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'S5',
+    codigoEntorno: '19KM',
+    description: ''
+  },
+  {
+    causalidad: 'Aprovisionamiento de Papel fallido no hay papel en site',
+    tipoSR: 'CHGF',
+    codigoReparacion: '14',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'S5',
+    codigoEntorno: '19KM',
+    description: ''
+  },
+  {
+    causalidad: 'Aprovisionamiento de Papel Mal cargado',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'S5',
+    codigoEntorno: '19KG',
+    description: ''
+  },
+  {
+    causalidad: 'Cliente solicita Ingreso Llaves de Encripcion',
+    tipoSR: 'CHGF',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: '19KA',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Aprovisionamiento de Papel POR Mal cargado',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'S5',
+    codigoEntorno: '19KB',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - ATM Apagado por reparacion Boveda - Site - PM programado',
+    tipoSR: 'CHGF',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - ATM en Supervisor',
+    tipoSR: 'CHGF',
+    codigoReparacion: '57',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'LH',
+    codigoEntorno: '19KP',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Cable Potencia desconectado',
+    tipoSR: 'CHGF',
+    codigoReparacion: '02',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'ZU',
+    codigoEntorno: '19K4',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Dispositivo interno desconectado',
+    tipoSR: 'CHGF',
+    codigoReparacion: '02',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'J7',
+    codigoEntorno: '19KB',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Fascia abierta',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KV',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Fascia dejada sin asegurar',
+    tipoSR: 'CHGF',
+    codigoReparacion: '02',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KV',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Inactividad ATM O Sin fallas  NFF',
+    tipoSR: 'CHGF',
+    codigoReparacion: '53',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19KR',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Mal enrutado el cable comunicaciones o suelto',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D4',
+    codigoEntorno: '19K9',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - No hay ATM en sitio',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    codigoEntorno: '19NR',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - TDV deja segundo recibo de contadores',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'XX',
+    codigoEntorno: '19NS',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - TDV no borra contadores',
+    tipoSR: 'CHGF',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    codigoEntorno: '19N8',
+    description: ''
   }
 ];
