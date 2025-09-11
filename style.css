@@ -92,17 +92,17 @@ footer {
     }
 
     .cloud-item {
-      background-color: #81e888;
+      background-color: #e6f3e6;
       padding: 10px 30px;
       border-radius: 20px;
       cursor: pointer;
       font-size: 14px;
       transition: background-color 0.3s;
-      color: #1a8441;
+      color: #166c35;
     }
 
     .cloud-item:hover {
-      background-color: #81e888;
+      background-color: #e6f3e6;
     }
 
 @media screen and (max-width: 900px) {
