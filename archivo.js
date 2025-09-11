@@ -14,7 +14,7 @@ function buscarDatos() {
         <p><strong>Categoría:</strong> ${d.categoria}</p>
         <p><strong>Mayor:</strong> ${d.mayor}</p>
         <p><strong>Menor:</strong> ${d.menor}</p>
-        <p><strong>Descripción:</strong> ${d.descripcion ?? 'N/A'}</p>
+        <p><strong>Descripción:</strong> ${d.description ?? 'N/A'}</p>
       </div>
       `).join('')
     : '<p>No se encontraron resultados.</p>';
