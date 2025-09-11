@@ -35,11 +35,6 @@ footer {
   margin-top: 2rem;
 }
 
-p {
-  text-align: justify;
-  margin-top: 1rem;
-}
-
 #resultados {
   display: flex;
   flex-direction: column;
@@ -89,6 +84,26 @@ p {
 .conceptos:has(#resultados > *) {
   display: block;
 }
+
+.cloud-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .cloud-item {
+      background-color: #81e888;
+      padding: 10px 30px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s;
+      color: #1a8441;
+    }
+
+    .cloud-item:hover {
+      background-color: #81e888;
+    }
 
 @media screen and (max-width: 900px) {
   .contenido {

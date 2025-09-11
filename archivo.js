@@ -1,7 +1,7 @@
 // Buscar datos por nombre
-function buscarDatos() {
-  const query = document.getElementById('busqueda-input').value.trim().toLowerCase();
-  const resultados = datos.filter(d => d.causalidad.toLowerCase().includes(query));
+function buscarDatos(valorBusqueda) {
+  const busqueda = valorBusqueda.trim().toLowerCase();
+  const resultados = datos.filter(d => d.causalidad.toLowerCase().includes(busqueda));
   const resultsDiv = document.getElementById('resultados');
 
   resultsDiv.innerHTML = resultados.length
@@ -24,10 +24,30 @@ function buscarDatos() {
   return resultados.length > 0;
 }
 
+function ocultarMedoto(tieneResultado) {
+  const metodo = document.querySelector('.metodo');
+  metodo.style.display = tieneResultado ? 'none' : 'block';
+}
+
 document.getElementById('busqueda').addEventListener('submit', function (e) {
   e.preventDefault();
-  const tieneResultado = buscarDatos();
-  const sugerencia = document.querySelector('.sugerencia');
-  sugerencia.style.display = tieneResultado ? 'none' : 'block';
+  const query = document.getElementById('busqueda-input').value;
+  const tieneResultado = buscarDatos(query);
+  ocultarMedoto(tieneResultado)
 });
 
+const recomendaciones = [
+    "Dispensador", "Impresora", "Lectora", "Papel", "Sin falla", "Vandalismo", "Llaves"
+];
+
+// Crear burbujas de recomendaciones
+recomendaciones.forEach(recomendacion => {
+  const item = document.createElement('div');
+  item.classList.add('cloud-item');
+  item.textContent = recomendacion;
+  item.onclick = () => {
+    const tieneResultado = buscarDatos(recomendacion);
+    ocultarMedoto(tieneResultado)
+  };
+  cloudContainer.appendChild(item);
+});
