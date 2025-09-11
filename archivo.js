@@ -9,11 +9,11 @@ function buscarDatos() {
       <div class="resultado">
         <p><strong>Causalidad:</strong> ${d.causalidad}</p>
         <p><strong>Tipo SR:</strong> ${d.tipoSR}</p>
+        <p><strong>Código Entorno:</strong> ${d.codigoEntorno}</p>
         <p><strong>Código de Reparación:</strong> ${d.codigoReparacion}</p>
         <p><strong>Categoría:</strong> ${d.categoria}</p>
         <p><strong>Mayor:</strong> ${d.mayor}</p>
         <p><strong>Menor:</strong> ${d.menor}</p>
-        <p><strong>Código Entorno:</strong> ${d.codigoEntorno}</p>
         <p><strong>Descripción:</strong> ${d.descripcion ?? 'N/A'}</p>
       </div>
       `).join('')
