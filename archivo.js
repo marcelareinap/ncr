@@ -24,8 +24,6 @@ function buscarDatos() {
   return resultados.length > 0;
 }
 
-
-
 document.getElementById('busqueda').addEventListener('submit', function (e) {
   e.preventDefault();
   const tieneResultado = buscarDatos();
