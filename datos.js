@@ -1,6 +1,6 @@
 const datos = [
   {
-    causalidad: 'Acompañamiento - Apertura  y no llega proveedor  o no tiene acceso',
+    causalidad: 'Acompañamiento - Apertura y NO Llega Proveedor o NO Tiene Acceso',
     tipoSR: 'CHGF / TTPY',
     codigoEntorno: '19K8',
     codigoReparacion: '59',
@@ -100,7 +100,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Aprovisionamiento de Papel exitoso',
+    causalidad: 'Aprovisionamiento de Papel Exitoso',
     tipoSR: 'CHGF',
     codigoEntorno: '19KM',
     codigoReparacion: '05',
@@ -110,7 +110,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Aprovisionamiento de Papel fallido no hay papel en site',
+    causalidad: 'Aprovisionamiento de Papel Fallido NO Hay Papel en Site',
     tipoSR: 'CHGF',
     codigoEntorno: '19KM',
     codigoReparacion: '14',
@@ -120,33 +120,13 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Aprovisionamiento de Papel Mal cargado',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KG',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '7C',
-    menor: 'S5',
-    description: ''
-  },
-  {
-    causalidad: 'Bajar Auditoria, Log de errores, Silent Debug, configuracion por solicitud del cliente o de NCR',
+    causalidad: 'Bajar Auditoria, Log de Errores, Silent Debug, Configuracion por Solicitud del Cliente o de NCR',
     tipoSR: 'CHGC',
     codigoEntorno: '19KI',
     codigoReparacion: '34',
     categoria: '1B',
     mayor: 'CH',
     menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'Bajar Log de errores por solicitud del cliente o de NCR y el SSCO no tiene fallas',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19K8',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'N3',
     description: ''
   },
   {
@@ -170,7 +150,7 @@ const datos = [
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Cliente solicita Autenticar dispensador x Cambio Software',
+    causalidad: 'Cliente Solicita Autenticar Dispensador por Cambio Software',
     tipoSR: 'CHGC',
     codigoEntorno: '19KP',
     codigoReparacion: '59',
@@ -179,28 +159,8 @@ const datos = [
     menor: 'YH',
     description: ''
   },
-  {
-    causalidad: 'Cliente solicita Copia llave de chapa',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KC',
-    codigoReparacion: '59',
-    categoria: '1B',
-    mayor: '36',
-    menor: 'V8',
-    description: ''
-  },
-  {
-    causalidad: 'Cliente solicita Ingreso Llaves de Encripcion',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KA',
-    codigoReparacion: '59',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'Cliente solicita Ingreso Llaves de Encripcion PROYECTO BANCOLOMBIA',
+   {
+    causalidad: 'Cliente Solicita Borrado de Llaves de Encripcion PROYECTO BANCOLOMBIA',
     tipoSR: 'FLM4',
     codigoEntorno: 'N/A',
     codigoReparacion: '59',
@@ -210,7 +170,28 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Error Operativo - Aprovisionamiento de Papel POR Mal cargado',
+    causalidad: 'Cliente Solicita Copia Llave de Chapa',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KC',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'V8',
+    description: ''
+  },
+
+  {
+    causalidad: 'Cliente Solicita Ingreso Llaves de Encripcion',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19KA',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Aprovisionamiento de Papel POR Mal Cargado',
     tipoSR: 'CHGF',
     codigoEntorno: '19KB',
     codigoReparacion: '51',
@@ -220,7 +201,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Error Operativo - ATM Apagado por reparacion Boveda - Site - PM programado',
+    causalidad: 'Error Operativo - ATM Apagado por Reparacion Boveda - Site - PM programado',
     tipoSR: 'CHGF',
     codigoEntorno: '19KP',
     codigoReparacion: '59',
@@ -240,7 +221,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Error Operativo - Cable dispensador suelto',
+    causalidad: 'Error Operativo - Cable Dispensador Suelto',
     tipoSR: 'CHGC',
     codigoEntorno: '19NS',
     codigoReparacion: '02',
@@ -250,7 +231,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Error Operativo - Cable Potencia desconectado',
+    causalidad: 'Error Operativo - Cable Potencia Desconectado',
     tipoSR: 'CHGF',
     codigoEntorno: '19K4',
     codigoReparacion: '02',
@@ -259,191 +240,11 @@ const datos = [
     menor: 'ZU',
     description: ''
   },
-  {
-    causalidad: 'Error Operativo - Dinero en mal estado (tomar fotos) o generando atascos',
+    {
+    causalidad: 'Error Operativo - Dinero en MAL Estado (TOMAR FOTOS) o Generando Atascos',
     tipoSR: 'CHGC',
     codigoEntorno: '19K7',
     codigoReparacion: '59',
-    categoria: '1B',
-    mayor: 'ND',
-    menor: 'CC',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Dispositivo interno desconectado',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KB',
-    codigoReparacion: '02',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'J7',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Fajilla de billetes obstruia sensor',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19K7',
-    codigoReparacion: '03',
-    categoria: '1B',
-    mayor: 'ND',
-    menor: 'BL',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Falla de Aplicativo con reinstalacion',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KP',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'SOLICITUD DEL CLIENTE Reinstalacion Software SIN Falla del ATM',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KP',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Fascia abierta',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KV',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '36',
-    menor: 'W3',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Fascia dejada sin asegurar',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KV',
-    codigoReparacion: '02',
-    categoria: '1B',
-    mayor: '36',
-    menor: 'W3',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Gaveta sin dinero',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19K5',
-    codigoReparacion: '59',
-    categoria: '1B',
-    mayor: 'ND',
-    menor: 'CC',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Gavetas BNA llenas de dinero obstruyendo sensor',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KE',
-    codigoReparacion: '59',
-    categoria: '1B',
-    mayor: '2C',
-    menor: 'GR',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Inactividad ATM O Sin fallas  NFF',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KR',
-    codigoReparacion: '53',
-    categoria: '1B',
-    mayor: '36',
-    menor: 'W3',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Instalacion de Aplicativo por daño NO NCR',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KP',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - Mal enrutado el cable comunicaciones o suelto',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19K9',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'PN',
-    menor: 'D4',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - No hay ATM en sitio',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19NR',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '36',
-    menor: 'W3',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - TDV deja segundo recibo de contadores',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19NS',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '7C',
-    menor: 'XX',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - TDV mal engachada gaveta',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19K6',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'ND',
-    menor: 'CC',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - TDV Mala manipulacion dispensador',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19NS',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'ND',
-    menor: 'XX',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Error Operativo - TDV manipulacion escrow',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19NS',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: '2C',
-    menor: 'F5',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - TDV no borra contadores',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19N8',
-    codigoReparacion: '51',
-    categoria: '1B',
-    mayor: 'CH',
-    menor: 'X1',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo- Gaveta dañada por manipulacion  generando fallas',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19N2',
-    codigoReparacion: '51',
     categoria: '1B',
     mayor: 'ND',
     menor: 'CC',
@@ -460,7 +261,217 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Error Usuario final - Efectivo depositado en Multifuncional de Mala calidad',
+    causalidad: 'Error Operativo - Dispositivo Interno Desconectado',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19KB',
+    codigoReparacion: '02',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'J7',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Fajilla de Billetes Obstruia Sensor',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19K7',
+    codigoReparacion: '03',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'BL',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Falla de Aplicativo con Reinstalacion',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KP',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Fascia Abierta',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19KV',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Fascia Dejada Sin Asegurar',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19KV',
+    codigoReparacion: '02',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Gaveta SIN Dinero',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19K5',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'CC',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Gavetas BNA Llenas de Dinero Obstruyendo Sensor',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KE',
+    codigoReparacion: '59',
+    categoria: '1B',
+    mayor: '2C',
+    menor: 'GR',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Inactividad ATM O Sin Fallas  NFF',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19KR',
+    codigoReparacion: '53',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Inactividad SSCO',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KR',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'W3',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Instalacion de Aplicativo por Daño NO NCR',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KP',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - Mal Enrutado el Cable Comunicaciones o Suelto',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19K9',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'PN',
+    menor: 'D4',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - NO Hay ATM en Sitio',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19NR',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '36',
+    menor: 'W3',
+    description: ''
+  },
+   {
+    causalidad: 'Error Operativo - No Hay SSCO en Sitio',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19NR',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '34',
+    menor: 'YH',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - SSCO Apagado por Reparacion Boveda o Site',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KP',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'YH',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - SSCO en Supervisor',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KH',
+    codigoReparacion: '51',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'LH',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - TDV Deja Segundo Recibo de Contadores',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19NS',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '7C',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Error Operativo - TDV Mal Engachada Gaveta',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19K6',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'CC',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - TDV Mala Manipulacion Dispensador',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19NS',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Error Operativo - TDV Manipulacion Escrow',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19NS',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: '2C',
+    menor: 'F5',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo - TDV NO Borra Contadores',
+    tipoSR: 'CHGF',
+    codigoEntorno: '19N8',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
+    description: ''
+  },
+  {
+    causalidad: 'Error Operativo- Gaveta Dañada por manipulacion Generando Fallas',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19N2',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'ND',
+    menor: 'CC',
+    description: ''
+  },
+  {
+    causalidad: 'Error Usuario Final - Efectivo Depositado en Multifuncional de Mala calidad',
     tipoSR: 'CHGC',
     codigoEntorno: '19KO',
     codigoReparacion: '59',
@@ -470,7 +481,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Incumplimiento y/o TDV no llevo llaves del site',
+    causalidad: 'Incumplimiento y/o TDV NO Llevo Llaves del Site',
     tipoSR: 'CHGC',
     codigoEntorno: '19KL',
     codigoReparacion: '51',
@@ -480,7 +491,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Mal diagnostico de Monitoreo (BELLTECH - DAVIVIENDA), modulo diferente - servicio incorrecto SLM',
+    causalidad: 'Mal Diagnostico de Monitoreo (BELLTECH - DAVIVIENDA), Modulo Diferente - Servicio Incorrecto SLM',
     tipoSR: 'CHGC',
     codigoEntorno: '19NR',
     codigoReparacion: '54',
@@ -490,7 +501,7 @@ const datos = [
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Mal diagnostico de Monitoreo,(BELLTECH), modulo diferente - servicio incorrecto FLM',
+    causalidad: 'Mal Diagnostico de Monitoreo,(BELLTECH), Modulo Diferente - Servicio Incorrecto FLM',
     tipoSR: 'CHGF',
     codigoEntorno: '19NR',
     codigoReparacion: '54',
@@ -510,7 +521,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Mantenimiento Preventivo Fallido no entulado -visita fallida',
+    causalidad: 'Mantenimiento Preventivo Fallido NO entulado - Visita Fallida',
     tipoSR: 'PM',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -520,7 +531,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Mantenimiento Preventivo Fallido restriccion de ingreso',
+    causalidad: 'Mantenimiento Preventivo Fallido Restriccion de Ingreso',
     tipoSR: 'PM',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -540,7 +551,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema Aire Acondicionado en afectacion al ATM',
+    causalidad: 'Problema Aire Acondicionado en Afectacion al ATM',
     tipoSR: 'CHGF',
     codigoEntorno: '19KT',
     codigoReparacion: '51',
@@ -550,7 +561,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema Aire Acondicionado en afectacion al ATM con cambio de partes ATM',
+    causalidad: 'Problema Aire Acondicionado en Afectacion al ATM con Cambio de Partes ATM',
     tipoSR: 'CHGC',
     codigoEntorno: '19KT',
     codigoReparacion: '11',
@@ -560,7 +571,7 @@ const datos = [
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Problema comunicaciones o equipos comunicaciones  apagados o reset equipos',
+    causalidad: 'Problema Comunicaciones o Equipos Comunicaciones Apagados o Reset Equipos',
     tipoSR: 'CHGF',
     codigoEntorno: '19KQ',
     codigoReparacion: '57',
@@ -570,7 +581,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema electrico - Equipos comunicaciones',
+    causalidad: 'Problema Electrico - Equipos Comunicaciones',
     tipoSR: 'CHGF',
     codigoEntorno: '19KQ',
     codigoReparacion: '51',
@@ -580,7 +591,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema electrico - No hay Fluido electrico',
+    causalidad: 'Problema Electrico - NO Hay Fluido Electrico',
     tipoSR: 'CHGF',
     codigoEntorno: '19K4',
     codigoReparacion: '47',
@@ -590,7 +601,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema electrico - Voltajes altos',
+    causalidad: 'Problema Electrico - Voltajes Altos',
     tipoSR: 'CHGF',
     codigoEntorno: '19K4',
     codigoReparacion: '47',
@@ -600,7 +611,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Problema electrico -Problema UPS',
+    causalidad: 'Problema Electrico - Problema UPS',
     tipoSR: 'CHGF',
     codigoEntorno: '19K4',
     codigoReparacion: '47',
@@ -620,7 +631,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'PROYECTO Alistamiento de equipos en bodega para reinstalcion',
+    causalidad: 'PROYECTO Alistamiento de Equipos en Bodega para Reinstalcion',
     tipoSR: 'RFIT',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -629,8 +640,18 @@ const datos = [
     menor: '0',
     description: 'SR de proyectos'
   },
+   {
+    causalidad: 'PROYECTO Cliente Solicita Apagar SSCO por Desconexion',
+    tipoSR: 'DEIN',
+    codigoEntorno: 'N/A',
+    codigoReparacion: '0',
+    categoria: '1R',
+    mayor: '0',
+    menor: '0',
+    description: 'SR de proyectos'
+  },
   {
-    causalidad: 'PROYECTO Cliente solicita Desmonte dispensador x Remodelacion',
+    causalidad: 'PROYECTO Cliente Solicita Desmonte Dispensador por Remodelacion',
     tipoSR: 'DEIN',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -640,7 +661,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Encender ATM despues de Remodelacion',
+    causalidad: 'PROYECTO Cliente Solicita Encender ATM Despues de Remodelacion',
     tipoSR: 'INST',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -650,7 +671,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita instalacion de nuevo aplicativo',
+    causalidad: 'PROYECTO Cliente Solicita Instalacion de Nuevo Aplicativo',
     tipoSR: 'RFIT',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -660,7 +681,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Instalacion Protector teclado',
+    causalidad: 'PROYECTO Cliente Solicita Instalacion Protector Teclado',
     tipoSR: 'INST',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -670,7 +691,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Reinstalar ATM que estaba en Bodega',
+    causalidad: 'PROYECTO Cliente Solicita Reinstalar ATM que Estaba en Bodega',
     tipoSR: 'INST',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -680,7 +701,17 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Setear gavetas, Cambio denominacion o Configuracion nueva familia',
+    causalidad: 'PROYECTO Cliente Solicita Reinstalar SSCO que Estaba en Bodega',
+    tipoSR: 'INST',
+    codigoEntorno: 'N/A',
+    codigoReparacion: '0',
+    categoria: '1R',
+    mayor: '0',
+    menor: '0',
+    description: 'SR de proyectos'
+  },
+  {
+    causalidad: 'PROYECTO Cliente Solicita Setear Gavetas, Cambio Denominacion o Configuracion Nueva Familia',
     tipoSR: 'RFIT',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -690,7 +721,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Cliente solicita Visita para revisar equipo y poner a punto el Site para Instalacion',
+    causalidad: 'PROYECTO Cliente Solicita Visita para Revisar Equipo y Poner a Punto el Site para Instalacion',
     tipoSR: 'SPV',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -710,7 +741,7 @@ const datos = [
     description: 'SR de proyectos'
   },
   {
-    causalidad: 'PROYECTO Instalacion de Partes nuevas por actualizacion o venta',
+    causalidad: 'PROYECTO Instalacion de Partes Nuevas por Actualizacion o Venta',
     tipoSR: 'INST',
     codigoEntorno: 'N/A',
     codigoReparacion: '0',
@@ -730,7 +761,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Reparacion o Cambio Antiskimming responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Antiskimming Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -740,7 +771,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio BNA responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio BNA Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -750,7 +781,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio cerradura Fascia responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Cerradura Fascia Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -760,7 +791,87 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Dispensador Modulos responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio de Balanza de Seguridad Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '82',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Cash Box Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: 'NR',
+    menor: '4Z',
+    description: ''
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Cassette Reciclador Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: 'NR',
+    menor: 'Q5',
+    description: ''
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Disco Duro Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: 'CH',
+    menor: '2V',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Main Module Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: 'NR',
+    menor: '5Z',
+    description: ''
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Reciclador de Monedas Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '8P',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Scanner-Balanza Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '82',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio de Spine Responsabilidad de NCR',
+    tipoSR: 'MNT',
+    codigoEntorno: 'N/A',
+    codigoReparacion: 'XX',
+    categoria: '1R',
+    mayor: '82',
+    menor: 'XX',
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
+  },
+  {
+    causalidad: 'Reparacion o Cambio Dispensador Modulos Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -770,7 +881,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Dispensador Presentador responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Dispensador Presentador Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -780,7 +891,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio FDK/Op responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio FDK/Op Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -790,7 +901,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Gabinete responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Gabinete Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -800,7 +911,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Harness responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Harness Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -810,7 +921,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Impresora responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Impresora Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -820,7 +931,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Lectora responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Lectora Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -830,7 +941,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Monitor responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Monitor Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -840,7 +951,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio PCCORE responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio PCCORE Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -850,7 +961,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Shutter responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Shutter Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -860,7 +971,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Teclado EPP responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Teclado EPP Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
@@ -880,7 +991,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Restriccion de Site - No acceso al ATM para NCR FLM',
+    causalidad: 'Restriccion de Site - No Acceso al ATM Para NCR FLM',
     tipoSR: 'CHGF',
     codigoEntorno: '19KL',
     codigoReparacion: '59',
@@ -890,7 +1001,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Restriccion de Site - No acceso al ATM para NCR SLM',
+    causalidad: 'Restriccion de Site - No Acceso al ATM Para NCR SLM',
     tipoSR: 'CHGC',
     codigoEntorno: '19KL',
     codigoReparacion: '59',
@@ -900,7 +1011,17 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Restriccion de Site - No hay clave de alarma Site',
+    causalidad: 'Restriccion de Site - No acceso al SSCO',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KL',
+    codigoReparacion: '59',
+    categoria: '1R',
+    mayor: '36',
+    menor: 'V8',
+    description: ''
+  },
+  {
+    causalidad: 'Restriccion de Site - No Hay Clave de Alarma Site',
     tipoSR: 'CHGF',
     codigoEntorno: '19KL',
     codigoReparacion: '51',
@@ -910,7 +1031,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Restriccion de Site - NO se pudo abrir cofre TDV y/o Oficina',
+    causalidad: 'Restriccion de Site - NO se Pudo Abrir Cofre TDV y/o Oficina',
     tipoSR: 'CHGC',
     codigoEntorno: '19KL',
     codigoReparacion: '51',
@@ -920,17 +1041,17 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Retiro atasco en impresora',
+    causalidad: 'Retiro Atasco en Impresora',
     tipoSR: 'FLM',
     codigoEntorno: 'N/A',
     codigoReparacion: '03',
     categoria: '1B',
     mayor: '7C',
     menor: 'XX',
-    description: ''
+    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Retiro atasco en lectora',
+    causalidad: 'Retiro Atasco en lectora',
     tipoSR: 'FLM',
     codigoEntorno: 'N/A',
     codigoReparacion: '03',
@@ -940,7 +1061,7 @@ const datos = [
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Retiro Billete atascado Modulos por falla de maquina',
+    causalidad: 'Retiro Billete Atascado Modulos por Falla de Maquina',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: '03',
@@ -950,13 +1071,23 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Retiro Billete atascado Presentador por falla de maquina',
+    causalidad: 'Retiro Billete Atascado Presentador por Falla de Maquina',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: '03',
     categoria: '1B',
     mayor: 'ND',
     menor: 'FD',
+    description: ''
+  },
+  {
+    causalidad: 'SOLICITUD DEL CLIENTE Reinstalacion Software SIN Falla del ATM',
+    tipoSR: 'CHGC',
+    codigoEntorno: '19KP',
+    codigoReparacion: '51',
+    categoria: '1B',
+    mayor: 'CH',
+    menor: 'X1',
     description: ''
   },
   {
@@ -980,7 +1111,7 @@ const datos = [
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
   {
-    causalidad: 'Vandalismo Mayor Con cambio de partes',
+    causalidad: 'Vandalismo Mayor Con cambio de Partes',
     tipoSR: 'CHGC',
     codigoEntorno: '19NP',
     codigoReparacion: '11',
@@ -999,156 +1130,6 @@ const datos = [
     menor: 'XX',
     description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
   },
-  {
-    causalidad: 'Error Operativo - Inactividad SSCO',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KR',
-    codigoReparacion: '51',
-    categoria: '1R',
-    mayor: '36',
-    menor: 'W3',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - No hay SSCO en sitio',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19NR',
-    codigoReparacion: '51',
-    categoria: '1R',
-    mayor: '34',
-    menor: 'YH',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - SSCO Apagado por reparacion Boveda o Site',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KP',
-    codigoReparacion: '51',
-    categoria: '1R',
-    mayor: '36',
-    menor: 'YH',
-    description: ''
-  },
-  {
-    causalidad: 'Error Operativo - SSCO en Supervisor',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KH',
-    codigoReparacion: '51',
-    categoria: '1R',
-    mayor: '36',
-    menor: 'LH',
-    description: ''
-  },
-  {
-    causalidad: 'PROYECTO Cliente solicita Apagar SSCO por desconexion',
-    tipoSR: 'DEIN',
-    codigoEntorno: 'N/A',
-    codigoReparacion: '0',
-    categoria: '1R',
-    mayor: '0',
-    menor: '0',
-    description: 'SR de proyectos'
-  },
-  {
-    causalidad: 'PROYECTO Cliente solicita Reinstalar SSCO que estaba en Bodega',
-    tipoSR: 'INST',
-    codigoEntorno: 'N/A',
-    codigoReparacion: '0',
-    categoria: '1R',
-    mayor: '0',
-    menor: '0',
-    description: 'SR de proyectos'
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Balanza de seguridad responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: '82',
-    menor: 'XX',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Cash Box responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: 'NR',
-    menor: '4Z',
-    description: ''
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Cassette Reciclador responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: 'NR',
-    menor: 'Q5',
-    description: ''
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Disco Duro responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: 'CH',
-    menor: '2V',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Main Module responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: 'NR',
-    menor: '5Z',
-    description: ''
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Reciclador de monedas responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: '8P',
-    menor: 'XX',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Scanner-balanza responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: '82',
-    menor: 'XX',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Reparacion o Cambio de Spine responsabilidad de NCR',
-    tipoSR: 'MNT',
-    codigoEntorno: 'N/A',
-    codigoReparacion: 'XX',
-    categoria: '1R',
-    mayor: '82',
-    menor: 'XX',
-    description: 'XX-DEPENDE DE DISPOSITIVO EN FALLA'
-  },
-  {
-    causalidad: 'Restriccion de Site - No acceso al SSCO',
-    tipoSR: 'CHGC',
-    codigoEntorno: '19KL',
-    codigoReparacion: '59',
-    categoria: '1R',
-    mayor: '36',
-    menor: 'V8',
-    description: ''
-  }
 ];
 
 console.log(datos.length);
