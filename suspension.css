@@ -35,11 +35,11 @@ h3 {
     font-weight: 600;
 }
  
-.step {
+.step, .motivo {
     display: none; /* Oculta todos los pasos por defecto */
 }
  
-.step.active {
+.step.active, .motivo.active {
     display: block; /* Muestra solo el paso activo */
 }
  
