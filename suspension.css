@@ -1,0 +1,96 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.wizard-container {
+    background: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+ 
+h1 {
+    color: #1c1e21;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+ 
+h2 {
+    color: #28a745;
+}
+ 
+h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+ 
+.step {
+    display: none; /* Oculta todos los pasos por defecto */
+}
+ 
+.step.active {
+    display: block; /* Muestra solo el paso activo */
+}
+ 
+button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #4B4F56;
+    background-color: #E4E6EB;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+ 
+button:hover {
+    background-color: #d8dbdf;
+}
+ 
+button:disabled {
+    background-color: #f5f5f5;
+    color: #bcc0c4;
+    cursor: not-allowed;
+}
+ 
+#result-content {
+    background-color: #e9f5ec;
+    border-left: 5px solid #28a745;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    text-align: left;
+    border-radius: 8px;
+}
+ 
+#result-code {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e6b34;
+}
+ 
+#result-description {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+ 
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1rem 0 2rem;
+}
