@@ -150,7 +150,7 @@ function obtenerCodigos({ ubicacion, estadoOperativo, actividad, motivo }) {
     }
     if (estadoOperativo === 'noOperativo') {
       if (motivo === 'parte') return ['11 - Parte NO Disponible Localmente', '16 - CE recoge la Pieza Localmente'];
-      if (motivo === 'cliente') return ['13 - Motivo del Cliente/Tercero', '13A - Acto Naturaleza', '13C - Cliente NO Disponible', '13D - - Solicitud Cliente/Reprogramado', '13F - Sin Acesso al Sitio'];
+      if (motivo === 'cliente') return ['13 - Motivo del Cliente/Tercero', '13A - Acto Naturaleza', '13C - Cliente NO Disponible', '13D - Solicitud Cliente/Reprogramado', '13F - Sin Acesso al Sitio'];
       if (motivo === 'ncr') return ['14 - Motivo Interno NCR'];
     }
   }
