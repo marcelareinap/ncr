@@ -37,7 +37,7 @@ document.getElementById('busqueda').addEventListener('submit', function (e) {
 });
 
 const recomendaciones = [
-    "Comunicaciones", "Dispensador", "Impresora", "Lectora", "Papel", "Sin falla", "Vandalismo", "Llaves"
+    "Apertura", "Comunicaciones", "Dispensador", "Impresora", "Lectora", "Papel", "Sin falla", "Vandalismo", "Llaves"
 ];
 
 // Crear burbujas de recomendaciones
