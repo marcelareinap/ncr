@@ -122,21 +122,21 @@ function respuesta(dato) {
 function obtenerCodigos({ ubicacion, estadoOperativo, actividad, motivo }) {
   // Casos REMOTO (pasa directo a motivos)
   if (ubicacion === 'remote') {
-    if (motivo === 'parte') return ['21', '31'];
-    if (motivo === 'cliente') return ['23', '23A', '33'];
-    if (motivo === 'ncr') return ['23'];
+    if (motivo === 'parte') return ['21 - Operativo y NO Disponible Localmente', '31 - NO Operativo y NO Disponible Localmente'];
+    if (motivo === 'cliente') return ['23 - Operativo y Cliente NO Disponible', '23A - Acto Naturaleza', '33 - NO Operativo y Cliente NO Disponible'];
+    if (motivo === 'ncr') return ['23R - Motivo Interno NCR'];
     return [];
   }
 
   // Casos ON SITE
   if (actividad === 'esperando') {
     if (estadoOperativo === 'operativo') {
-      if (motivo === 'parte') return ['149'];
-      if (motivo === 'cliente') return ['031', '035', '037', '039'];
-      if (motivo === 'ncr') return ['04']; // cuando no puedes esperar (ver más abajo)
+      if (motivo === 'parte') return ['149 - Esperando Parte por NCR'];
+      if (motivo === 'cliente') return ['031 - Interrupcion/Retraso del cliente/Tercero', '035 - Inactivo Retraso Guardia', '037 - Pausa Obligatoria', '039 - Esperando Parte, NO NCR'];
+      if (motivo === 'ncr') return ['04 - Motivo Interno NCR']; // cuando no puedes esperar (ver más abajo)
     }
     if (estadoOperativo === 'noOperativo') {
-      if (motivo === 'cliente') return ['131', '135', '137', '139'];
+      if (motivo === 'cliente') return ['131 - Interrupcion/Retraso del cliente/Tercero', '135 - Inactivo Retraso Guardia', '137 - Pausa Obligatoria', '139 - Esperando Parte, NO NCR'];
       // En esperando + noOperativo, solo se habilita cliente en UI
     }
   }
@@ -144,14 +144,14 @@ function obtenerCodigos({ ubicacion, estadoOperativo, actividad, motivo }) {
   // On site, suspendido (no puedo esperar)
   if (actividad === 'suspendido') {
     if (estadoOperativo === 'operativo') {
-      if (motivo === 'parte') return ['01', '06'];
-      if (motivo === 'cliente') return ['03', '03A', '03C', '03D', '03F'];
-      if (motivo === 'ncr') return ['04'];
+      if (motivo === 'parte') return ['01 - Parte NO Disponible Localmente', '06 - CE recoge la Pieza Localmente'];
+      if (motivo === 'cliente') return ['03 - Motivo del Cliente/Tercero', '03A - Acto Naturaleza', '03C - Cliente NO Disponible', '03D - Solicitud Cliente/Reprogramado', '03F - Sin Acesso al Sitio'];
+      if (motivo === 'ncr') return ['04 - Motivo Interno NCR'];
     }
     if (estadoOperativo === 'noOperativo') {
-      if (motivo === 'parte') return ['11', '16'];
-      if (motivo === 'cliente') return ['13', '13A', '13C', '13D', '13F'];
-      if (motivo === 'ncr') return ['14'];
+      if (motivo === 'parte') return ['11 - Parte NO Disponible Localmente', '16 - CE recoge la Pieza Localmente'];
+      if (motivo === 'cliente') return ['13 - Motivo del Cliente/Tercero', '13A - Acto Naturaleza', '13C - Cliente NO Disponible', '13D - - Solicitud Cliente/Reprogramado', '13F - Sin Acesso al Sitio'];
+      if (motivo === 'ncr') return ['14 - Motivo Interno NCR'];
     }
   }
 
@@ -225,12 +225,10 @@ function mostrarCodigo(motivo) {
       <div class="mb-3">
         <div class="fw-bold mb-2">IS THE EQUIPMENT OPERATIONAL?</div>
         <div class="btn-group d-flex" role="group">
-          <button type="button" class="btn ${
-            opYes ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">Yes</button>
-          <button type="button" class="btn ${
-            opNo ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">No</button>
+          <button type="button" class="btn ${opYes ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">Yes</button>
+          <button type="button" class="btn ${opNo ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">No</button>
         </div>
       </div>
       `
@@ -241,12 +239,10 @@ function mostrarCodigo(motivo) {
       <div class="mb-3">
         <div class="fw-bold mb-2">ARE YOU WAITING ONSITE(IDLE)?</div>
         <div class="btn-group d-flex" role="group">
-          <button type="button" class="btn ${
-            idleYes ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">Yes</button>
-          <button type="button" class="btn ${
-            idleNo ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">No</button>
+          <button type="button" class="btn ${idleYes ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">Yes</button>
+          <button type="button" class="btn ${idleNo ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">No</button>
         </div>
       </div>
       `
@@ -256,12 +252,10 @@ function mostrarCodigo(motivo) {
       <div class="mb-3">
         <div class="fw-bold mb-2">ARE YOU ONSITE AND HAVE ACCESSED THE EQUIPMENT?</div>
         <div class="btn-group d-flex" role="group">
-          <button type="button" class="btn ${
-            onsiteYes ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">Yes</button>
-          <button type="button" class="btn ${
-            onsiteNo ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">No</button>
+          <button type="button" class="btn ${onsiteYes ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">Yes</button>
+          <button type="button" class="btn ${onsiteNo ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">No</button>
         </div>
       </div>
 
@@ -272,15 +266,12 @@ function mostrarCodigo(motivo) {
       <div class="mb-3">
         <div class="fw-bold mb-2">SUSPENSION REASON</div>
         <div class="btn-group d-flex" role="group">
-          <button type="button" class="btn ${
-            reasonNcr ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">NCR</button>
-          <button type="button" class="btn ${
-            reasonCliente ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">NON-NCR</button>
-          <button type="button" class="btn ${
-            reasonParte ? 'btn-success' : 'btn-outline-secondary'
-          } flex-fill">PARTS</button>
+          <button type="button" class="btn ${reasonNcr ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">NCR</button>
+          <button type="button" class="btn ${reasonCliente ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">NON-NCR</button>
+          <button type="button" class="btn ${reasonParte ? 'btn-success' : 'btn-outline-secondary'
+      } flex-fill">PARTS</button>
         </div>
       </div>
 
