@@ -331,6 +331,17 @@ footer {
   color: #ecf0f1;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 15%; /* Ajusta según tu diseño */
+  height: 15%;
+  max-width: 100%;    /* Ajusta según tu diseño */
+}
+
 /* Submenú */
 .dropdown {
   position: relative;
@@ -356,6 +367,10 @@ footer {
 @media screen and (max-width: 900px) {
   .contenido {
     width: 100vw;
+  }
+
+  .logo {
+    width: 50%; /* Más grande en móviles */
   }
 
   .navbar {
