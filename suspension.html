@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CÓDIGOS DE CIERRE</title>
-    <link rel="icon" href="imagenes/fav.ico" type="image/x-icon">
-    <link rel="stylesheet" href="suspension.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-</head>
-
-<body>
-    <div class="wizard-container">
-        <h1>Asistente de Códigos de Justificación</h1>
-        <hr>
-        <div id="step1" class="step active">
-            <h3>1. ¿Dónde estás trabajando?</h3>
-            <button onclick="respuesta('site', 'step2')">📍 En Sitio (Onsite)</button>
-            <button onclick="respuesta('remote', 'step2')">💻 Remoto</button>
-        </div>
-
-        <div id="step2" class="step">
-            <h3>2. ¿El equipo está operacional?</h3>
-            <button onclick="respuesta('operativo', 'step3')">✅ Sí (Operacional)</button>
-            <button onclick="respuesta('noOperativo', 'step3')">❌ No (No Operacional)</button>
-        </div>
-
-        <div id="step3" class="step">
-            <h3>3. ¿Estás esperando (inactivo/idle)?</h3>
-            <button onclick="respuesta('esperando', 'step4')">🕐 Sí (Esperando)</button>
-            <button onclick="respuesta('suspendido', 'step4')">No (Trabajo Suspendido)</button>
-        </div>
-
-        <div id="step4" class="step">
-            <h3>4. ¿Cuál es el motivo de la suspensión?</h3>
-            <button class="motivo motivo1" onclick="respuesta('parte')">🔧 Necesito Piezas (Parts)</button>
-            <button class="motivo motivo2" onclick="respuesta('cliente')">👤 Motivo del Cliente</button>
-            <button class="motivo motivo3" onclick="respuesta('ncr')">🏢 Motivo Interno NCR</button>
-        </div>
-
-        <div id="result" class="step">
-            <h2>Código de Justificación Encontrado</h2>
-            <div id="result-content">
+    <link rel="icon" href="imagenes/fav.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="suspension.css" />
+  </head>
+    <header>
+        <div class="container">
+          <nav>
+            <div class="navbar">
+              NCR ATLEOS
+              <div class="nav-links">
+                <a href="index.html">Códigos de Cierre</a>
+                <a href="suspension.html">Códigos de Suspensión</a>
+                <a href="#">Tabla de AQRS</a>
+              </div>
             </div>
-            <button onclick="resetWizard()">🔄 Empezar de Nuevo</button>
+          </nav>
         </div>
+      </header>
+  <main class="main">
+    <section class="contenido">
+        <p>Herramienta desarrollada para ayudar a los CE en campo para realizar la correcta suspensión de las SR.</p>
+      <div class="cloud-container" id="cloudContainer">
+      </div>
+  </main>
+  <body>
+    <div class="wizard-container">
+      <h1>Asistente de Códigos de Justificación</h1>
+      <hr />
+      <div id="step1" class="step active">
+        <h3>1. ¿Dónde estás trabajando?</h3>
+        <button onclick="respuesta('site')">📍 En Sitio (Onsite)</button>
+        <button onclick="respuesta('remote')">💻 Remoto</button>
+      </div>
 
+      <div id="step2" class="step">
+        <h3>2. ¿El equipo está operacional?</h3>
+        <button onclick="respuesta('operativo')">✅ Sí (Operacional)</button>
+        <button onclick="respuesta('noOperativo')">❌ No (No Operacional)</button>
+      </div>
+
+      <div id="step3" class="step">
+        <h3>3. ¿Estás esperando (inactivo/idle)?</h3>
+        <button onclick="respuesta('esperando')">🕐 Sí (Esperando)</button>
+        <button onclick="respuesta('suspendido')"> ❌ No (Trabajo Suspendido)</button>
+      </div>
+
+      <div id="step4" class="step">
+        <h3>4. ¿Cuál es el motivo de la suspensión?</h3>
+        <button class="motivo motivo1" onclick="mostrarCodigo('parte')">
+          🔧 Necesito Piezas (Parts)
+        </button>
+        <button class="motivo motivo2" onclick="mostrarCodigo('cliente')">
+          👤 Motivo del Cliente
+        </button>
+        <button class="motivo motivo3" onclick="mostrarCodigo('ncr')">
+          🏢 Motivo Interno NCR
+        </button>
+      </div>
+
+      <div id="result" class="step">
+        <h2>Código de Justificación Encontrado</h2>
+        <div id="result-content"></div>
+        <button onclick="resetWizard()">🔄 Empezar de Nuevo</button>
+      </div>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <footer>
+    <p>&copy; 2025 By Nashly Marcela Reina</p>
+    <p>CO114D52 - NR385002</p>
+    <p>Pereira Colombia</p>
+  </footer>
     <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
-</body>
-
+  </body>
 </html>

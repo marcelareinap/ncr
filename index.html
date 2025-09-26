@@ -7,57 +7,52 @@
   <title>CÓDIGOS DE CIERRE</title>
   <link rel="icon" href="imagenes/fav.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="nav-link active" aria-current="page" href="index.html">Códigos de Cierre</a>
-          <a class="nav-link active" aria-current="page" href="suspension.html">Códigos de Suspensión</a>
-          <a class="nav-link active" aria-current="page" href="aqrs.html">AQRS</a>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="navbar">
+            NCR ATELOS</a>
+            <div class="nav-links">
+              <a href="index.html">Códigos de Cierre</a>
+              <a href="suspension.html">Códigos de Suspensión</a>
+              <a href="#">Tabla de AQRS</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="contenido">
+        <p>Herramienta desarrollada para ayudar a los CE en campo para realizar el correcto cierres de las SR.</p>
+        <form id="busqueda">
+          <h2>Buscar Código de Cierre</h2>
+          <input type="text" id="busqueda-input" placeholder="Palabra Clave">
+          <button class="buscar-boton" type="submit">Buscar</button>
+        </form>
 
+        <div class="cloud-container" id="cloudContainer">
         </div>
-      </nav>
-    </div>
-  </header>
-  <main class="main">
-    <section class="contenido">
-      <p>Herramienta desarrollada para ayudar a los CE en campo para realizar el correcto cierres de las SR.</p>
-      <form id="busqueda">
-        <h2>Buscar Código de Cierre</h2>
-        <input type="text" id="busqueda-input" placeholder="Palabra Clave">
-        <button class="buscar-boton" type="submit">Buscar</button>
-      </form>
-
-      <div class="cloud-container" id="cloudContainer">
-      </div>
-      <div class="conceptos">
-        <h2>Resultados</h2>
-        <div id="resultados"></div>
-      </div>
-      <div class="metodo">
-        <h2>Método de Uso</h2>
-        <p>Puedes buscar utilizando términos específicos que aparecen en la causalidad, por ejemplo: auditoria, cambio,
-          mantenimiento, vandalismo, aplicativo, gaveta, papel, impresora, lector, boveda, supervisor, llaves, aire,
-          software, sensor, escrow, recibo, contadores, site o proyecto.</p>
-      </div>
-  </main>
-  <footer>
-    <p>&copy; 2025 By Nashly Marcela Reina</p>
-    <p>CO114D52 - NR385002</p>
-    <p>Pereira Colombia</p>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="datos.js"></script>
-  <script src="archivo.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-</body>
-
+        <div class="conceptos">
+          <h2>Resultados</h2>
+          <div id="resultados"></div>
+        </div>
+        <div class="metodo">
+          <h2>Método de Uso</h2>
+          <p>Puedes buscar utilizando términos específicos que aparecen en la causalidad, por ejemplo: auditoria, cambio,
+            mantenimiento, vandalismo, aplicativo, gaveta, papel, impresora, lector, boveda, supervisor, llaves, aire,
+            software, sensor, escrow, recibo, contadores, site o proyecto.</p>
+        </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 By Nashly Marcela Reina</p>
+      <p>CO114D52 - NR385002</p>
+      <p>Pereira Colombia</p>
+    </footer>
+      <script src="datos.js"></script>
+      <script src="archivo.js"></script>
+  </body>
 </html>
