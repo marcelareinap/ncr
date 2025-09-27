@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-image: url(imagenes/fondo.jpg);
+  background-image: url(../imagenes/fondo.jpg);
   color: white;
   padding: 2rem;
   text-align: center;
