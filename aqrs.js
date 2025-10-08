@@ -32,12 +32,12 @@ const datosAqrs = [
     {
         descripcion: 'La Transportadora de Valores Llego con un Retraso de XX:xx hrs.',
         nomenclatura: 'AQRTDV-HH:MMX',
-        ejemplo: 'AQRETV-02:30',
+        ejemplo: 'AQRTDV-02:30',
     },
     {
         descripcion: 'La Transportadora de Valores NO LLEGO a la Cita y se le Espero HH Horas y MM Minutos',
         nomenclatura: 'AQRTDV-NOLLEGOHH:MMX',
-        ejemplo: 'AQRETV-NOLLEGO01:24',
+        ejemplo: 'AQRTDV-NOLLEGO01:24',
     },    
     {
         descripcion: 'El Acceso es Permitido Horas Despues de la Cita',
@@ -86,22 +86,22 @@ const datosAqrs = [
     },    
     {
         descripcion: 'AQR Usado por una Mal Monitoreo de Belltech y Davivienda ',
-        nomenclatura: 'AQEBELL ',
+        nomenclatura: 'AQRBELL ',
         ejemplo: '',
     },    
     {
         descripcion: 'Generan Servicio Documentando una Falla y en Sitio Encontramos algo Diferente. (Belltech y Davivienda)',
-        nomenclatura: 'AQEBELL ',
+        nomenclatura: 'AQRBELL ',
         ejemplo: '',
     },    
     {
         descripcion: 'Solicitan SLM que en realidad es un FLM (Pasa mucho con servicios de dispensador) (Belltech y Davivienda)',
-        nomenclatura: 'AQEBELL ',
+        nomenclatura: 'AQRBELL ',
         ejemplo: '',
     },    
     {
         descripcion: 'La Solución NO esta en Manos de NCR si no del Equipo de Monitoreo o Banco. (Belltech y Davivienda)',
-        nomenclatura: 'AQEBELL',
+        nomenclatura: 'AQRBELL',
         ejemplo: '',
     }
    

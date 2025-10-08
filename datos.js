@@ -941,7 +941,7 @@ const datos = [
     description: 'XX-DEPENDE SI ES REPARACION O CAMBIO Y DISPOSITIVO DE FALLA'
   },
   {
-    causalidad: 'Reparacion o Cambio Monitor Responsabilidad de NCR',
+    causalidad: 'Reparacion o Cambio Monitor / Display Responsabilidad de NCR',
     tipoSR: 'MNT',
     codigoEntorno: 'N/A',
     codigoReparacion: 'XX',
