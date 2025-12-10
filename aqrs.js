@@ -103,6 +103,10 @@ const datosAqrs = [
         descripcion: 'La Solución NO esta en Manos de NCR si no del Equipo de Monitoreo o Banco. (Belltech y Davivienda)',
         nomenclatura: 'AQRBELL',
         ejemplo: '',
+    },
+    {
+        descripcion: 'Falla solventada por FLM del banco. Solo aplica para cliente Davivienda',
+        nomenclatura: 'AQRFLM',
+        ejemplo: '',
     }
-   
 ]

@@ -24,7 +24,7 @@ function ocultarMedotoAqrs(tieneResultado) {
 
 
 const recomendaciones = [
-    "Acceso", "Belltech y Davivienda", "Parte", "Proveedor", "Tallies", "Transportadora", "Recategorizacion de Servicio"
+    "Acceso", "Belltech y Davivienda","FLM", "Parte", "Proveedor", "Tallies", "Transportadora", "Recategorizacion de Servicio"
 ];
 
 // Crear burbujas de recomendaciones
