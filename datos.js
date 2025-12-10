@@ -101,13 +101,13 @@ const datos = [
   },
   {
     causalidad: 'Aprovisionamiento de Papel Exitoso',
-    tipoSR: 'CHGF',
-    codigoEntorno: '19KM',
+    tipoSR: 'FLM3 ó FLM4',
+    codigoEntorno: '',
     codigoReparacion: '05',
     categoria: '1B',
     mayor: '7C',
     menor: 'S5',
-    description: ''
+    description: 'FLM4 para los servicios generados despues/antes de turno ó sitios con restricciones de ingreso'
   },
   {
     causalidad: 'Aprovisionamiento de Papel Fallido NO Hay Papel en Site',
