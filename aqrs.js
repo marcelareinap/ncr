@@ -105,7 +105,7 @@ const datosAqrs = [
         ejemplo: '',
     },
     {
-        descripcion: 'Falla solventada por FLM del banco. Solo aplica para cliente Davivienda',
+        descripcion: 'Falla que pudo ser solventada por FLM del banco. Solo aplica para cliente Davivienda',
         nomenclatura: 'AQRFLM',
         ejemplo: '',
     }
