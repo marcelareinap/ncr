@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PERSONAL TASK</title>
+    <link rel="icon" href="imagenes/fav.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="suspension.css" />
+  </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETJ07MKGKX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ETJ07MKGKX');
+</script>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="navbar">
+            <img src="imagenes/logo.png" alt="Logo" class="logo">
+              </a>
+              <div class="nav-links">
+                <a href="index.html">Códigos de Cierre</a>
+                <a href="suspension.html">Códigos de Suspensión</a>
+                <a href="aqrs.html">AQRS</a>
+                <a href="personal.html">Creación de Personal Task</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <main class="main">
+    <section class="contenido">
+        <p>Herramienta desarrollada para ayudar a los CE en campo para realizar la correcta creación de Personal Task</p>
+      <div class="cloud-container" id="cloudContainer">
+      </div>
+  </main>
+  <body>
+    <div class="wizard-container">
+      <div id="step1" class="step active">
+        <h3>1. ¿Que Task Personal vas a crear?</h3>
+        <button onclick="respuesta('1')"> 🎓 Educación</button>
+        <button onclick="respuesta('2')"> ⚙️ Auditoria de Partes</button>
+        <button onclick="respuesta('3')"> 📋 Auditoria de Llaves</button>
+        <button onclick="respuesta('4')"> ❌ No SR</button>
+        <button onclick="respuesta('5')"> 🔧 Mantenimiento Moto</button>
+        <button onclick="respuesta('6')"> 📍 Reunión Interna</button>
+        <button onclick="respuesta('7')"> 🔄 Actualizaciones</button>
+        <button onclick="respuesta('8')"> 🏢 Administrativo</button>
+      </div>
+
+      <div id="step2" class="step">
+        <h3>2. Seleccionó Training/Education</h3>
+        <button > Cursos NCRU / Elearning</button>
+        <button> Curso Presencial Bogotá</button>
+        <button > Curso Autorizado por TM</button>
+        <button > Tiempo de Mentoria (Aplica mentor designado o CE en mentoria)</button>
+        <button > Rework Partes de Stock Caseros (Autorizado por TM)</button>
+        <button > Desarrollo de Aplicaciones o Soluciones</button>
+      </div>
+
+      <div id="step3" class="step">
+        <h3>2. Seleccionó Part Audit</h3>
+        <button > Auditoria de Partes</button>
+        <button > Inventario Stock CE PPK</button>
+        <button > Inventario Stock Caseros</button>
+        <button > Aseo Stock Caseros</button>
+      </div>
+
+      <div id="step4" class="step">
+        <h3>2. Seleccionó ATM Key Audit</h3>
+        <button > Auditoria Llaves Stock Casero</button>
+      </div>
+
+      <div id="step5" class="step">
+        <h3>2. Seleccionó NON SR - Pickup/Drop Off Part</h3>
+        <button > Buscar / Retornar Llaves</button>
+        <button > Recoger o Enviar Partes</button>
+        <button > Retorno a Ciudad Base (Sin SR)</button>
+      </div>
+
+      <div id="step6" class="step">
+        <h3>2. Seleccionó Vehicule Maintenance</h3>
+        <button > Motos</button>
+        <button > Mantenimiento Moto</button>
+      </div>
+
+      <div id="step7" class="step">
+        <h3>2. Seleccionó Meeting Internal</h3>
+        <button > Reunión de Territorio</button>
+        <button > Reunión con TM - One to One</button>
+        <button > Reunión con Pausas Activas</button>
+      </div>
+
+      <div id="step8" class="step">
+        <h3>2. Seleccionó Software Update to Laptop</h3>
+        <button > Actualización USB Multiboot</button>
+        <button > Actualización USB Maestro Aplicativos</button>
+        <button > Actualización de Portatiles</button>
+        <button > Actualización de USB Diagnostico</button>
+      </div>
+
+      <div id="step9" class="step">
+        <h3>2. Admin - Emails/Paperwork/Manuals</h3>
+        <button > Lectura de Correos</button>
+        <button > Diligenciar Horas Extras</button>
+        <button > Lectura de Manuales</button>
+        <button > Tiempo de Auditoria (Aplica auditor designado o CE auditado)</button>
+      </div>
+    </div>
+    <footer>
+    <p>&copy; 2025 By Nashly Marcela Reina</p>
+    <p>CO114D52 - NR385002</p>
+    <p>Pereira - Colombia </p>
+  </footer>
+    <script src="personal.js"></script>
+  </body>
+</html>
