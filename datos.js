@@ -107,7 +107,7 @@ const datos = [
     categoria: '1B',
     mayor: '7C',
     menor: 'S5',
-    description: 'FLM4 para los servicios generados despues/antes de turno ó sitios con restricciones de ingreso'
+    description: 'FLM4 para todos los servicios por papeleria, a excepción de realizarce dentro de los tiempos'
   },
   {
     causalidad: 'Aprovisionamiento de Papel Fallido NO Hay Papel en Site',
