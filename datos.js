@@ -1101,7 +1101,7 @@ const datos = [
     description: ''
   },
   {
-    causalidad: 'Vandalismo Mayor',
+    causalidad: 'Vandalismo Mayor Sin Cambio de Partes',
     tipoSR: 'CHGC',
     codigoEntorno: '19NP',
     codigoReparacion: '51',
