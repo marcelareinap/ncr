@@ -54,9 +54,9 @@ function respuesta(dato) {
     ocultarPaso('step4');
   }
 
-  if (dato === 'remote') {
-    ubicacion = 'remote';
-    marcarSeleccionado('step1', 'Remoto');
+  if (dato === 'acceso') {
+    ubicacion = 'acceso';
+    marcarSeleccionado('step1', 'Sin Acceso');
     ocultarPaso('step2');
     ocultarPaso('step3');
     mostrarPaso('step4');
