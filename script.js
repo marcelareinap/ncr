@@ -56,7 +56,7 @@ function respuesta(dato) {
 
   if (dato === 'acceso') {
     ubicacion = 'acceso';
-    marcarSeleccionado('step1', 'No Acceso');
+    marcarSeleccionado('step1', 'Sin Acceso');
     ocultarPaso('step2');
     ocultarPaso('step3');
     mostrarPaso('step4');
