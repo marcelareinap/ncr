@@ -121,7 +121,7 @@ function respuesta(dato) {
 // Devuelve los códigos a mostrar para una combinación dada
 function obtenerCodigos({ ubicacion, estadoOperativo, actividad, motivo }) {
   // Casos REMOTO (pasa directo a motivos)
-  if (ubicacion === 'remote') {
+  if (ubicacion === 'acceso') {
     if (motivo === 'parte') return ['21 - Operativo y NO Disponible Localmente', '31 - NO Operativo y NO Disponible Localmente'];
     if (motivo === 'cliente') return ['23 - Operativo y Cliente NO Disponible', '23A - Acto Naturaleza', '33 - NO Operativo y Cliente NO Disponible'];
     if (motivo === 'ncr') return ['23R - Motivo Interno NCR'];
