@@ -36,6 +36,7 @@ footer {
   margin-top: 2rem;
 }
 
+
 #resultados {
   display: flex;
   flex-direction: column;
@@ -110,9 +111,10 @@ footer {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente (opcional) */
+  width: 100%;
 }
 
 .nav-links {
@@ -142,6 +144,8 @@ footer {
   width: 15%; /* Ajusta según tu diseño */
   height: 15%;
   max-width: 100%;    /* Ajusta según tu diseño */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
