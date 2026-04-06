@@ -101,7 +101,7 @@ function respuesta(dato) {
 
   if (dato === 'esperando') {
     actividad = 'esperando';
-    marcarSeleccionado('step3', 'Sí (Esperando)');
+    marcarSeleccionado('step3', 'Sí (Esperando, Trabajo Interrumpido)');
     mostrarPaso('step4');
     resetMotivos();
 
