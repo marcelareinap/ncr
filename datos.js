@@ -1,8 +1,8 @@
 const datos = [
   {
     causalidad: 'Acompañamiento - Apertura y NO Llega Proveedor o NO Tiene Acceso',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: '36',
@@ -11,8 +11,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Aire Acondicionado',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: '36',
@@ -21,8 +21,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Alarmas',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'PN',
@@ -31,8 +31,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Aseo',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: '36',
@@ -41,8 +41,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Cerradura',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'PN',
@@ -51,8 +51,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Comunicaciones',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'PN',
@@ -61,8 +61,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura DVR',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'PN',
@@ -71,8 +71,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Electrico',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: 'PN',
@@ -81,8 +81,8 @@ const datos = [
   },
   {
     causalidad: 'Acompañamiento - Apertura Otros',
-    tipoSR: 'FLM4',
-    codigoEntorno: ' ',
+    tipoSR: 'CHGF',
+    codigoEntorno: ' 19K8',
     codigoReparacion: '59',
     categoria: '1B',
     mayor: '36',
